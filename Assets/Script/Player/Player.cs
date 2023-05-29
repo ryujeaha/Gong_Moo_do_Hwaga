@@ -122,7 +122,34 @@ public class Player : MonoBehaviour
         if (id == 100)//방금 끝난 대화가 할아버지와의 대화라면
         {
             SceneManager.LoadScene("scene2");
-            Talk(101, true);
+        }
+       else if (id == 102)//방금 끝난 대화가 할아버지와의 대화라면
+        {
+            SceneManager.LoadScene("scene3");
+        }
+       else if (id == 103)//방금 끝난 대화가 할아버지와의 대화라면
+        {
+            SceneManager.LoadScene("scene4");
+        }
+        else if (id == 104)//방금 끝난 대화가 할아버지와의 대화라면
+        {
+            SceneManager.LoadScene("scene5");
+        }
+        else if (id == 105)//방금 끝난 대화가 할아버지와의 대화라면
+        {
+            SceneManager.LoadScene("scene6");
+        }
+        else if (id == 106)//방금 끝난 대화가 할아버지와의 대화라면
+        {
+            SceneManager.LoadScene("scene7");
+        }
+        else if (id == 107)//방금 끝난 대화가 할아버지와의 대화라면
+        {
+            SceneManager.LoadScene("scene8");
+        }
+        else if (id == 109)//방금 끝난 대화가 할아버지와의 대화라면
+        {
+            SceneManager.LoadScene("scene9");
         }
     }
 }
